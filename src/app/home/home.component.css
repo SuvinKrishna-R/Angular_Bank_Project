@@ -33,7 +33,7 @@ img{
     img {
         padding-left: 4%;
         width: 100%;
-        height: 100%;
+        height: 70%;
     }
   }
 
@@ -41,4 +41,8 @@ img{
     width: 100%;
     height: 100%;
     padding-left: 7%;
+}
+
+#navbarNavDropdown ul li{
+    cursor: pointer;
 }

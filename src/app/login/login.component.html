@@ -10,10 +10,10 @@
         <H3 class="mt-3" id="li"><b>LOG IN</b></H3>
 
           <div>
-              <input type="text" [placeholder]="placedata" class="mt-3 w-75" name="accNumber" id="accNumberId">
+              <input  (change)="acnoChange($event)" type="text" [placeholder]="placedata" class="mt-3 w-75" name="accNumber" id="accNumberId">
           </div>
           <div>
-              <input type="password" placeholder="Password" class="mt-3  w-75" name="password" id="passwordId">
+              <input  (change)="acnoPassword($event)"  type="password" placeholder="Password" class="mt-3  w-75" name="password" id="passwordId">
           </div>
     
           <button   (click)=" login()" type="button" class="btn mt-4">Log In</button>
