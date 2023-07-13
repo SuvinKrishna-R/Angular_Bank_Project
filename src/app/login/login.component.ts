@@ -10,6 +10,7 @@ export class LoginComponent {
   data="Happy Banking With Us"
   placedata="Enter account no"
   acno:any=""
+  psw:any=""
 
 
 
@@ -20,9 +21,9 @@ export class LoginComponent {
   }
 
 
-  login(){
-    alert("Login Clicked")
-  }
+  // login(){
+  //   alert("Login Clicked")
+  // }
 
   // acnoChange(event:any){
 
@@ -42,5 +43,26 @@ export class LoginComponent {
     
 
   }
+  // login(a:any,b:any){
+  //   console.log(a.value);
+  //   console.log(b.value);
+    
+    
+
+  // }
+
+  login(a:any,b:any){
+    this.acno=a.value
+    this.psw=b.value
+    console.log( this.acno);
+    console.log( this.psw);
+    
+    
+    
+
+  }
+
+
+
 
 }
